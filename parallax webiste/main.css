@@ -1,0 +1,124 @@
+body{
+    background-color: white;
+    width: auto;
+    /* margin: 5px; */
+    padding: 5px;
+}
+
+
+p{
+    color:gray;
+    align-self: start;
+}
+
+.navbar{
+    height: 150px;
+    position: sticky;
+    top: 0px;
+    /* background-color: black; */
+
+}
+.navbar h1{
+    margin: 10px;
+    color:silver;
+    text-shadow: 5px 5px 10px white;
+    background-color: rgb(46, 139, 87, 0.25);
+    box-shadow: 20px 20px 20px #98FB98;
+    font-family: Georgia;
+    padding: 25px 25px;
+    margin: 11px;
+    /* margin-top: 50px; */
+    width: 50px;
+
+
+
+
+}
+
+.navbar a{
+    /* border: 1px solid; */
+    position:relative;
+    left: 75%;
+    bottom: 80px;
+    /* bottom: .5px; */
+    padding: 1px;
+    margin: 10px;
+    text-decoration: none;
+    color:silver;
+}
+
+a:hover{
+    text-decoration: overline;
+}
+
+.firstpart{
+    /* width: 80%; */
+    height: 600px;
+    background-image: url(ev1.webp);
+    background-attachment: fixed;
+    
+}
+
+.secondpart{
+    /* width: 80%; */
+    height: 600px;
+    background-image: url(lx.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+.thirdpart{
+    /* width: 100%; */
+    height: 600px;
+    background-image: url(large-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+.fourthpart{
+    /* width: 100%; */
+    height: 600px;
+    background-image: url(nx.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+   
+}
+.fithpart{
+    /* width: 100%; */
+    height: 600px;
+    background-image: url(ux.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+.info{
+    border: 2px solid transparent;
+    /* background-color: black; */
+    padding: 5px;
+    /* width: auto; */
+    height: 30%;
+    position: relative;
+    top: 250px;
+
+
+}
+.remarks {
+    position: relative;
+    font-style: italic;
+    color: black;
+    
+    /* color: beige; */
+    top: 5em;
+    left: 0em;
+
+}
+.remarks a{
+    text-decoration: none;
+    color: black;
+    
+}

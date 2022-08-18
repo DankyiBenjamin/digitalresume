@@ -1,0 +1,54 @@
+body{
+    background-color: aqua;
+    margin: 20%;
+}
+#title{
+    text-align: center;
+    position: sticky;
+    top: 0px;
+    text-shadow: 5px 5px 10px white;
+    font-size: 7vh;
+}
+.title{
+    position: sticky;
+    top: 0;
+}
+#title2{
+    text-align: center;
+    text-shadow: 5px 5px 10px white;
+    background-color: rgb(46, 139, 87, 0.25);
+    box-shadow: 20px 20px 20px #98FB98;
+    font-family: Georgia;
+    padding: 25px 25px;
+    margin: 11px;
+    margin-top: 50px;
+
+}
+.images{
+    display: inline-block;
+    width: 100%;
+    border: 5px solid aqua;
+
+}
+img{
+    width: 100%;
+
+}
+#tribute-link {
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: overline;
+}
+.content{
+    text-align: center;
+    text-shadow: 5px 5px 10px white;
+    background-color: rgb(46, 139, 87, 0.25);
+    box-shadow: 20px 20px 20px #98FB98;
+    font-family: Georgia;
+    padding: 25px 25px;
+    margin: 11px;
+    margin-top: 50px;
+    
+}
