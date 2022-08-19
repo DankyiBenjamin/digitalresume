@@ -42,7 +42,7 @@ div{
 }
 
 .navbar a{
-    border: 1px solid;
+    /* border: 1px solid; */
     position:relative;
     left: 70%;
     bottom: 80px;
@@ -128,6 +128,8 @@ a:hover{
     color: black;
     
 }
+
+
 @media (max-width:600px) {
     body{
         background-color: white;
@@ -192,7 +194,7 @@ a:hover{
         /* width: 70%; */
         height: 600px;
         background-image: url(ev1.webp);
-        /* background-attachment: fixed; */
+        background-attachment:scroll;
         
     }
     
@@ -203,7 +205,7 @@ a:hover{
         background-image: url(lx.jpg);
         background-repeat: no-repeat;
         background-position: center;
-        /* background-attachment: fixed; */
+        background-attachment: scroll;
         
     }
     
@@ -213,7 +215,7 @@ a:hover{
         background-image: url(large-1.jpg);
         background-repeat: no-repeat;
         background-position: center;
-        /* background-attachment: fixed; */
+        background-attachment: scroll;
         
     }
    
@@ -223,7 +225,7 @@ a:hover{
         background-image: url(nx.jpg);
         background-repeat: no-repeat;
         background-position: center;
-        /* background-attachment: fixed; */
+        background-attachment: scroll;
     
        
     }
@@ -234,7 +236,7 @@ a:hover{
         background-image: url(ux.jpg);
         background-repeat: no-repeat;
         background-position: center; 
-         background-attachment: fixed;
+         background-attachment: scroll;
     
     }
     
