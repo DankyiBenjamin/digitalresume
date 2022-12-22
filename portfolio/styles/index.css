@@ -1,0 +1,50 @@
+body{
+    background-color:rgb(178, 190, 181);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav h1{
+    margin: 0.2rem;
+    color: aqua;
+    text-shadow: 5px 5px 10px white;
+    background-color: rgb(46, 139, 87, 0.25);
+    box-shadow: 20px 20px 20px #98FB98;
+    font-family: Georgia;
+    padding: 1rem 1rem;
+    margin: 0.5rem;
+    /* margin-top: 50px; */
+    width: 6.5rem;
+}
+/* div{
+    border: 1px solid;
+} */
+.tile-img img{
+    height:200px;
+    width: 250px;
+}
+.background{
+    background-image: linear-gradient(rgba(0,8,51,0.8),rgba(0,8,51,0.8)), url(images/background.jpg);
+    background-size: cover;
+}
+
+.icon-size{
+    font-size: 1.2rem;
+}
+
+
+
+@media (max-width: 600px){
+    
+    .mid-small{
+        text-align: center;
+    }
+
+    .tile-img img{
+        height:350px;
+        width: 350px;
+    }
+    /* div{
+        border: 1px solid
+    } */
+
+}
